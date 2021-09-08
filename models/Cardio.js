@@ -9,9 +9,15 @@ const CardioSchema = new Schema({
   },
   exercise: [
     {
-      type: "cardio",
-      name: { type: string, require: "Please enter a cardio exercise." },
-      distance: { type: Number, require: "Please enter you distance." },
+      type: String,
+      name: {
+        type: String,
+        require: "Please enter a cardio exercise.",
+      },
+      distance: {
+        type: Number,
+        require: "Please enter you distance.",
+      },
       duration: {
         type: Number,
         require: "Please enter you duration in minutes.",
