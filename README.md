@@ -17,6 +17,7 @@ For more information please check [GitHub Licensing](https://docs.github.com/en/
 - [Tests](#tests)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Usage](#usage)
+- [Resources](#resources)
 - [Questions](#questions)
 
 ## Tests
@@ -44,6 +45,13 @@ The user should be able to:
 - morgan
 - nodemon
 - Robo 3T
+
+## Resources
+
+- [Mongodb Docs](https://docs.mongodb.com/manual/reference/operator/update-field/)
+- [Monogodb Troubleshoot](https://docs.atlas.mongodb.com/troubleshoot-connection/#special-characters-in-connection-string-password)
+- [Monogodb How to Deploy on Heroku](https://www.mongodb.com/developer/how-to/use-atlas-on-heroku/)
+  - Use [URLEncoder](https://www.urlencoder.org/) to help with special character passwords.
 
 ## Questions
 
